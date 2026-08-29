@@ -14,3 +14,24 @@
 .category-filter-wrap{margin:6px 0 12px}.category-filter-wrap>span{display:block;font-size:12px;color:var(--muted);margin:0 0 7px}.category-filters{padding-bottom:0}.list-count{font-size:12px;color:var(--muted);text-align:right;margin:4px 0 10px}.pagination{display:flex;align-items:center;justify-content:center;gap:14px;margin:20px 0 4px}.pagination button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:8px 14px;font-size:12px}.pagination button:disabled{opacity:.35}.pagination span{font-size:12px;color:var(--muted)}
 
 .page-numbers{display:flex;gap:5px}.pagination .page-number{width:32px;height:32px;padding:0;border-radius:50%}.pagination .page-number.active{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:700}@media(max-width:420px){.pagination{gap:7px}.pagination>button:not(.page-number){padding:8px 10px}.page-numbers{gap:3px}.pagination .page-number{width:29px;height:29px}}
+
+.jukugo-kun-card{background:#e8eef7}.jukugo-kun-card:after{content:"訓"}.kun-answer{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+
+.jukugo-kun-pair{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;margin:40px 0 34px;text-align:center}.jukugo-kun-pair>div{min-width:0}.jukugo-kun-pair>div>span{display:block;color:var(--muted);font-size:14px;margin-bottom:12px}.jukugo-kun-pair strong{display:flex;justify-content:center;align-items:flex-end;min-height:86px;font-family:"Noto Serif JP",serif;color:var(--ink);font-size:clamp(32px,9vw,46px);font-weight:600;white-space:nowrap}.pair-arrow{font-size:25px;color:var(--muted);align-self:end;margin-bottom:28px}.dual-answer-grid{display:grid;gap:14px}.dual-answer-grid label>span{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.dual-answer-grid input{width:100%;border:1px solid var(--line);border-radius:10px;background:#fff;padding:12px 13px;font-size:18px;outline:none}.dual-answer-grid input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,131,59,.12)}.dual-submit{margin-top:14px}@media(max-width:390px){.jukugo-kun-pair{gap:8px}.jukugo-kun-pair strong{font-size:30px}.pair-arrow{font-size:20px}}
+
+.split-feedback{display:grid;grid-template-columns:1fr 1fr;gap:10px}.split-feedback .feedback{margin-top:12px}.split-feedback small{display:block;margin-top:5px;font-weight:500}.separate-favorites{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}.separate-favorites button{padding-inline:8px}@media(max-width:390px){.split-feedback,.separate-favorites{grid-template-columns:1fr}}
+
+
+
+.jukugo-kun-paper>.question-label{font-size:14px}
+
+
+
+.answer-input-wrap{position:relative}.answer-input-wrap input{padding-right:100px}.answer-input-wrap.is-correct input{background:#eef8f1;border-color:#67a77f;color:#245c39}.answer-input-wrap input:disabled{opacity:1;-webkit-text-fill-color:currentColor}.inline-judgment{position:absolute;right:13px;top:50%;transform:translateY(-50%);font-size:14px;white-space:nowrap}.is-correct .inline-judgment{color:#2f7a4d}
+
+.answer-input-wrap.is-wrong input{background:#fff1ef;border-color:#c86b62;color:#783b35}.is-wrong .inline-judgment{color:#b34c43}
+
+.hyogai-card{background:#edf3e8}.hyogai-card:after{content:"表"}
+
+/* コースカード：2列・装飾文字なし */
+.course-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.course-card{min-height:150px;padding:18px}.course-card:after{display:none}.course-card h2{font-size:21px;line-height:1.35}.course-card p{line-height:1.55}
