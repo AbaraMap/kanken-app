@@ -12,3 +12,5 @@
 .course-card{background:#e1def1;color:var(--ink);border:1px solid #d8d3e8;box-shadow:0 8px 22px rgba(92,82,125,.12)}.idiom-card{background:#f0eef8}.course-card small,.course-card p{color:#4d6469}.course-card:after{color:rgba(26,26,26,.05)}
 
 .category-filter-wrap{margin:6px 0 12px}.category-filter-wrap>span{display:block;font-size:12px;color:var(--muted);margin:0 0 7px}.category-filters{padding-bottom:0}.list-count{font-size:12px;color:var(--muted);text-align:right;margin:4px 0 10px}.pagination{display:flex;align-items:center;justify-content:center;gap:14px;margin:20px 0 4px}.pagination button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:8px 14px;font-size:12px}.pagination button:disabled{opacity:.35}.pagination span{font-size:12px;color:var(--muted)}
+
+.page-numbers{display:flex;gap:5px}.pagination .page-number{width:32px;height:32px;padding:0;border-radius:50%}.pagination .page-number.active{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:700}@media(max-width:420px){.pagination{gap:7px}.pagination>button:not(.page-number){padding:8px 10px}.page-numbers{gap:3px}.pagination .page-number{width:29px;height:29px}}
