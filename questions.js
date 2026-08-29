@@ -1,7 +1,7 @@
 window.KANKEN_QUESTIONS = [
   {id:"q001",word:"乃至",reading:"ないし",meaning:"あるいは。または。数量などの範囲を示すときは「…から…まで」。",category:"熟語",source:"study_note",verified:true,characters:[{char:"乃",on:"ダイ・ナイ",kun:"すなわち・なんじ"},{char:"至",on:"シ",kun:"いたる"}]},
   {id:"q002",word:"纏綿",reading:"てんめん",meaning:"情愛が深く、離れがたいこと。また、まとわりついて離れないさま。",category:"熟語",source:"study_note",verified:true,characters:[{char:"纏",on:"テン",kun:"まとう・まつわる"},{char:"綿",on:"メン",kun:"わた"}]},
-  {id:"q003",word:"認める",reading:"したためる",accepted:["したためる","したため"],meaning:"文章を書き記す。食事をする意でも使う。",category:"表外読み",source:"study_note",verified:true},
+  {id:"q003",word:"認める",reading:"したためる",accepted:["したためる","したた"],hintLength:3,okurigana:"める",meaning:"文章を書き記す。食事をする意でも使う。",category:"表外読み",source:"study_note",verified:true},
   {id:"q004",word:"阿附",reading:"あふ",accepted:["あふ"],meaning:"人に気に入られようとして、おもねり従うこと。",category:"熟語",source:"study_note",verified:true,variants:["阿付"]},
   {id:"q005",word:"迂遠",reading:"うえん",meaning:"回りくどく、直接目的に達しないこと。世事に疎いこと。",category:"熟語",source:"study_note",verified:true},
   {id:"q006",word:"狐狸",reading:"こり",meaning:"きつねとたぬき。転じて、人をだます者のたとえ。",category:"熟語",source:"study_note",verified:true},
@@ -20,13 +20,13 @@ window.KANKEN_QUESTIONS = [
   {id:"q019",word:"慷慨",reading:"こうがい",meaning:"世の不正を憤り嘆くこと。また、気前がよいこと。",category:"熟語",source:"ai_generated",verified:true},
   {id:"q020",word:"狼狽",reading:"ろうばい",meaning:"不意の出来事に慌てふためくこと。",category:"熟語",source:"study_note",verified:true},
   {id:"q021",word:"赤手",reading:"せきしゅ",meaning:"手に何も持たないこと。素手。",category:"熟語",source:"study_note",verified:true},
-  {id:"q022",word:"諫める",reading:"いさめる",accepted:["いさめる","いさめ"],meaning:"目上の人の誤りを指摘し、改めるよう忠告する。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q022",word:"諫める",reading:"いさめる",accepted:["いさめる","いさ"],meaning:"目上の人の誤りを指摘し、改めるよう忠告する。",category:"表外読み",source:"ai_generated",verified:true},
   {id:"q023",word:"労う",reading:"ねぎらう",accepted:["ねぎらう","ねぎら"],meaning:"苦労や骨折りに感謝し、いたわる。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q024",word:"具に",reading:"つぶさに",meaning:"細かく詳しく。すべてをもれなく。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q025",word:"夙に",reading:"つとに",meaning:"ずっと以前から。朝早くから。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q026",word:"忽ち",reading:"たちまち",meaning:"非常に短い時間のうちに。すぐに。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q027",word:"強ち",reading:"あながち",meaning:"一概に。必ずしも。多く打消しを伴う。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q028",word:"宛ら",reading:"さながら",meaning:"まるで。そっくりそのまま。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q029",word:"専ら",reading:"もっぱら",meaning:"ほとんどそれだけに集中するさま。",category:"表外読み",source:"ai_generated",verified:true},
-  {id:"q030",word:"概ね",reading:"おおむね",meaning:"だいたい。おおよそ。",category:"表外読み",source:"ai_generated",verified:true}
+  {id:"q024",word:"具に",reading:"つぶさに",accepted:["つぶさに","つぶさ"],meaning:"細かく詳しく。すべてをもれなく。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q025",word:"夙に",reading:"つとに",accepted:["つとに","つと"],meaning:"ずっと以前から。朝早くから。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q026",word:"忽ち",reading:"たちまち",accepted:["たちまち","たちま"],meaning:"非常に短い時間のうちに。すぐに。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q027",word:"強ち",reading:"あながち",accepted:["あながち","あなが"],meaning:"一概に。必ずしも。多く打消しを伴う。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q028",word:"宛ら",reading:"さながら",accepted:["さながら","さなが"],meaning:"まるで。そっくりそのまま。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q029",word:"専ら",reading:"もっぱら",accepted:["もっぱら","もっぱ"],meaning:"ほとんどそれだけに集中するさま。",category:"表外読み",source:"ai_generated",verified:true},
+  {id:"q030",word:"概ね",reading:"おおむね",accepted:["おおむね","おおむ"],meaning:"だいたい。おおよそ。",category:"表外読み",source:"ai_generated",verified:true}
 ];
