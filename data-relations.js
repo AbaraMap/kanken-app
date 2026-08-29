@@ -1,0 +1,422 @@
+window.KANKEN_RELATIONS = [
+  {
+    "id": "r001",
+    "type": "antonym",
+    "prompt": "簡潔",
+    "promptReading": "かんけつ",
+    "answer": "冗長",
+    "answerReading": "じょうちょう",
+    "promptMeaning": "短く要点がまとまっていること。",
+    "answerMeaning": "長すぎてまとまりに欠けること。",
+    "choices": [
+      "冗長",
+      "衰退",
+      "違反"
+    ],
+    "word": "簡潔 ⇔ 冗長",
+    "reading": "かんけつ／じょうちょう",
+    "meaning": "短く要点がまとまっていること。 長すぎてまとまりに欠けること。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r002",
+    "type": "antonym",
+    "prompt": "質素",
+    "promptReading": "しっそ",
+    "answer": "華美",
+    "answerReading": "かび",
+    "promptMeaning": "飾り気がなく簡素なこと。",
+    "answerMeaning": "華やかで美しく飾ること。",
+    "choices": [
+      "華美",
+      "粗雑",
+      "悲観"
+    ],
+    "word": "質素 ⇔ 華美",
+    "reading": "しっそ／かび",
+    "meaning": "飾り気がなく簡素なこと。 華やかで美しく飾ること。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r003",
+    "type": "antonym",
+    "prompt": "寛容",
+    "promptReading": "かんよう",
+    "answer": "狭量",
+    "answerReading": "きょうりょう",
+    "promptMeaning": "他者の言動を広く受け入れること。",
+    "answerMeaning": "心が狭く、他者を受け入れにくいこと。",
+    "choices": [
+      "狭量",
+      "卑俗",
+      "受動"
+    ],
+    "word": "寛容 ⇔ 狭量",
+    "reading": "かんよう／きょうりょう",
+    "meaning": "他者の言動を広く受け入れること。 心が狭く、他者を受け入れにくいこと。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r004",
+    "type": "antonym",
+    "prompt": "隆盛",
+    "promptReading": "りゅうせい",
+    "answer": "衰退",
+    "answerReading": "すいたい",
+    "promptMeaning": "勢いが盛んなこと。",
+    "answerMeaning": "勢いが衰えること。",
+    "choices": [
+      "衰退",
+      "収束",
+      "冗長"
+    ],
+    "word": "隆盛 ⇔ 衰退",
+    "reading": "りゅうせい／すいたい",
+    "meaning": "勢いが盛んなこと。 勢いが衰えること。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r005",
+    "type": "antonym",
+    "prompt": "精緻",
+    "promptReading": "せいち",
+    "answer": "粗雑",
+    "answerReading": "そざつ",
+    "promptMeaning": "細部まで精巧で緻密なこと。",
+    "answerMeaning": "作り方や扱いが大まかで雑なこと。",
+    "choices": [
+      "粗雑",
+      "違反",
+      "華美"
+    ],
+    "word": "精緻 ⇔ 粗雑",
+    "reading": "せいち／そざつ",
+    "meaning": "細部まで精巧で緻密なこと。 作り方や扱いが大まかで雑なこと。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r006",
+    "type": "antonym",
+    "prompt": "高尚",
+    "promptReading": "こうしょう",
+    "answer": "卑俗",
+    "answerReading": "ひぞく",
+    "promptMeaning": "品位や知性が高いこと。",
+    "answerMeaning": "品位がなく俗っぽいこと。",
+    "choices": [
+      "卑俗",
+      "悲観",
+      "狭量"
+    ],
+    "word": "高尚 ⇔ 卑俗",
+    "reading": "こうしょう／ひぞく",
+    "meaning": "品位や知性が高いこと。 品位がなく俗っぽいこと。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r007",
+    "type": "antonym",
+    "prompt": "拡散",
+    "promptReading": "かくさん",
+    "answer": "収束",
+    "answerReading": "しゅうそく",
+    "promptMeaning": "広い範囲へ散らばること。",
+    "answerMeaning": "分散していたものが一つにまとまること。",
+    "choices": [
+      "収束",
+      "受動",
+      "衰退"
+    ],
+    "word": "拡散 ⇔ 収束",
+    "reading": "かくさん／しゅうそく",
+    "meaning": "広い範囲へ散らばること。 分散していたものが一つにまとまること。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r008",
+    "type": "antonym",
+    "prompt": "遵守",
+    "promptReading": "じゅんしゅ",
+    "answer": "違反",
+    "answerReading": "いはん",
+    "promptMeaning": "規則や法律を守ること。",
+    "answerMeaning": "規則や法律に背くこと。",
+    "choices": [
+      "違反",
+      "冗長",
+      "粗雑"
+    ],
+    "word": "遵守 ⇔ 違反",
+    "reading": "じゅんしゅ／いはん",
+    "meaning": "規則や法律を守ること。 規則や法律に背くこと。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r009",
+    "type": "antonym",
+    "prompt": "楽観",
+    "promptReading": "らっかん",
+    "answer": "悲観",
+    "answerReading": "ひかん",
+    "promptMeaning": "物事を明るく良い方向に考えること。",
+    "answerMeaning": "物事を悪い方向に考えること。",
+    "choices": [
+      "悲観",
+      "華美",
+      "卑俗"
+    ],
+    "word": "楽観 ⇔ 悲観",
+    "reading": "らっかん／ひかん",
+    "meaning": "物事を明るく良い方向に考えること。 物事を悪い方向に考えること。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r010",
+    "type": "antonym",
+    "prompt": "能動",
+    "promptReading": "のうどう",
+    "answer": "受動",
+    "answerReading": "じゅどう",
+    "promptMeaning": "自分から働きかけること。",
+    "answerMeaning": "外から働きかけられること。",
+    "choices": [
+      "受動",
+      "狭量",
+      "収束"
+    ],
+    "word": "能動 ⇔ 受動",
+    "reading": "のうどう／じゅどう",
+    "meaning": "自分から働きかけること。 外から働きかけられること。",
+    "category": "対義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r011",
+    "type": "synonym",
+    "prompt": "懸念",
+    "promptReading": "けねん",
+    "answer": "危惧",
+    "answerReading": "きぐ",
+    "promptMeaning": "気にかかり、不安に思うこと。",
+    "answerMeaning": "悪い結果になるのではないかと心配すること。",
+    "choices": [
+      "危惧",
+      "切迫",
+      "軟弱"
+    ],
+    "word": "懸念 ≒ 危惧",
+    "reading": "けねん／きぐ",
+    "meaning": "気にかかり、不安に思うこと。 悪い結果になるのではないかと心配すること。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r012",
+    "type": "synonym",
+    "prompt": "卓越",
+    "promptReading": "たくえつ",
+    "answer": "抜群",
+    "answerReading": "ばつぐん",
+    "promptMeaning": "ほかよりはるかに優れていること。",
+    "answerMeaning": "多くの中で特に優れていること。",
+    "choices": [
+      "抜群",
+      "超越",
+      "学識"
+    ],
+    "word": "卓越 ≒ 抜群",
+    "reading": "たくえつ／ばつぐん",
+    "meaning": "ほかよりはるかに優れていること。 多くの中で特に優れていること。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r013",
+    "type": "synonym",
+    "prompt": "逡巡",
+    "promptReading": "しゅんじゅん",
+    "answer": "躊躇",
+    "answerReading": "ちゅうちょ",
+    "promptMeaning": "決断できず、ためらうこと。",
+    "answerMeaning": "実行するか迷い、ためらうこと。",
+    "choices": [
+      "躊躇",
+      "一掃",
+      "親交"
+    ],
+    "word": "逡巡 ≒ 躊躇",
+    "reading": "しゅんじゅん／ちゅうちょ",
+    "meaning": "決断できず、ためらうこと。 実行するか迷い、ためらうこと。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r014",
+    "type": "synonym",
+    "prompt": "逼迫",
+    "promptReading": "ひっぱく",
+    "answer": "切迫",
+    "answerReading": "せっぱく",
+    "promptMeaning": "余裕がなく、差し迫ること。",
+    "answerMeaning": "期限や危険などが間近に迫ること。",
+    "choices": [
+      "切迫",
+      "平然",
+      "危惧"
+    ],
+    "word": "逼迫 ≒ 切迫",
+    "reading": "ひっぱく／せっぱく",
+    "meaning": "余裕がなく、差し迫ること。 期限や危険などが間近に迫ること。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r015",
+    "type": "synonym",
+    "prompt": "凌駕",
+    "promptReading": "りょうが",
+    "answer": "超越",
+    "answerReading": "ちょうえつ",
+    "promptMeaning": "ほかのものを上回ること。",
+    "answerMeaning": "基準や限界を超えること。",
+    "choices": [
+      "超越",
+      "軟弱",
+      "抜群"
+    ],
+    "word": "凌駕 ≒ 超越",
+    "reading": "りょうが／ちょうえつ",
+    "meaning": "ほかのものを上回ること。 基準や限界を超えること。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r016",
+    "type": "synonym",
+    "prompt": "払拭",
+    "promptReading": "ふっしょく",
+    "answer": "一掃",
+    "answerReading": "いっそう",
+    "promptMeaning": "好ましくないものを取り除くこと。",
+    "answerMeaning": "残らずすっかり取り除くこと。",
+    "choices": [
+      "一掃",
+      "学識",
+      "躊躇"
+    ],
+    "word": "払拭 ≒ 一掃",
+    "reading": "ふっしょく／いっそう",
+    "meaning": "好ましくないものを取り除くこと。 残らずすっかり取り除くこと。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r017",
+    "type": "synonym",
+    "prompt": "泰然",
+    "promptReading": "たいぜん",
+    "answer": "平然",
+    "answerReading": "へいぜん",
+    "promptMeaning": "落ち着いて物事に動じない様子。",
+    "answerMeaning": "何事もなかったように落ち着いている様子。",
+    "choices": [
+      "平然",
+      "親交",
+      "切迫"
+    ],
+    "word": "泰然 ≒ 平然",
+    "reading": "たいぜん／へいぜん",
+    "meaning": "落ち着いて物事に動じない様子。 何事もなかったように落ち着いている様子。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r018",
+    "type": "synonym",
+    "prompt": "脆弱",
+    "promptReading": "ぜいじゃく",
+    "answer": "軟弱",
+    "answerReading": "なんじゃく",
+    "promptMeaning": "もろくて弱いこと。",
+    "answerMeaning": "意志や性質などが弱いこと。",
+    "choices": [
+      "軟弱",
+      "危惧",
+      "超越"
+    ],
+    "word": "脆弱 ≒ 軟弱",
+    "reading": "ぜいじゃく／なんじゃく",
+    "meaning": "もろくて弱いこと。 意志や性質などが弱いこと。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r019",
+    "type": "synonym",
+    "prompt": "造詣",
+    "promptReading": "ぞうけい",
+    "answer": "学識",
+    "answerReading": "がくしき",
+    "promptMeaning": "ある分野について深い知識があること。",
+    "answerMeaning": "学問から得た知識や見識。",
+    "choices": [
+      "学識",
+      "抜群",
+      "一掃"
+    ],
+    "word": "造詣 ≒ 学識",
+    "reading": "ぞうけい／がくしき",
+    "meaning": "ある分野について深い知識があること。 学問から得た知識や見識。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  },
+  {
+    "id": "r020",
+    "type": "synonym",
+    "prompt": "懇意",
+    "promptReading": "こんい",
+    "answer": "親交",
+    "answerReading": "しんこう",
+    "promptMeaning": "親しい間柄であること。",
+    "answerMeaning": "親しく付き合うこと。",
+    "choices": [
+      "親交",
+      "躊躇",
+      "平然"
+    ],
+    "word": "懇意 ≒ 親交",
+    "reading": "こんい／しんこう",
+    "meaning": "親しい間柄であること。 親しく付き合うこと。",
+    "category": "類義語",
+    "source": "curated",
+    "verified": false
+  }
+];

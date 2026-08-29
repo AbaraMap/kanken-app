@@ -35,3 +35,17 @@
 
 /* コースカード：2列・装飾文字なし */
 .course-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.course-card{min-height:150px;padding:18px}.course-card:after{display:none}.course-card h2{font-size:21px;line-height:1.35}.course-card p{line-height:1.55}
+
+.relation-card{background:#f7eee6}.relation-paper>.question-label{font-size:14px;letter-spacing:.06em}.relation-prompt{margin:38px 0 12px}.relation-question{text-align:center;font-family:"Noto Serif JP",serif;font-size:21px;font-weight:700;color:var(--ink);margin:0 0 28px}
+
+/* 表紙とコース一覧のスマートフォン調整 */
+.cover{padding:32px 20px}.cover-book{width:min(270px,calc(100vw - 56px));display:flex;flex-direction:column;align-items:center;justify-content:center}.cover-book h1{writing-mode:vertical-rl;text-orientation:upright;max-height:240px;margin:0;text-align:center;font-size:30px;line-height:1.45;letter-spacing:.06em;overflow-wrap:normal}.cover-book p{margin:22px 0 0}.course-card h2,.course-card p{overflow-wrap:anywhere}@media(max-width:420px){.screen{padding-left:14px;padding-right:14px}.course-list{gap:10px}.course-card{min-height:142px;padding:15px}.course-card h2{font-size:18px}.course-card p{font-size:11px;line-height:1.5}.course-card small{font-size:11px}.cover{padding-left:16px;padding-right:16px}.cover-book{width:min(270px,calc(100vw - 44px))}}
+
+
+.relation-paper .answer-area{margin-top:0}.relation-options{margin-bottom:18px}.relation-options .option-choice b{margin-left:auto;font-size:11px;color:var(--gold)}.relation-options .option-choice.selected{border-color:var(--gold);background:#fff8eb;box-shadow:0 0 0 2px rgba(181,135,69,.12)}.relation-reading-label{display:block;margin-top:4px}.relation-reading-label>span{display:block;font-size:12px;color:var(--muted);margin-bottom:7px}.relation-reading-label input{width:100%;border:1px solid var(--line);border-radius:10px;background:#fff;padding:12px 13px;font-size:18px;outline:none}.relation-reading-label input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,131,59,.12)}.relation-submit{margin-top:12px}.relation-reading-answer{font-family:"Noto Serif JP",serif;font-weight:700}.relation-feedback{margin-bottom:18px}
+
+.relation-type.synonym{color:#2f6fa3}.relation-type.antonym{color:#b84b42}
+
+.relation-options .option-choice:disabled{opacity:.58}.relation-options .option-choice.selected:disabled{opacity:1}
+
+.relation-reading-head{display:flex!important;align-items:center;justify-content:space-between;gap:12px}.relation-reading-head b{font-weight:500}.relation-reading-head em{font-style:normal;font-size:12px;color:var(--muted);white-space:nowrap}
