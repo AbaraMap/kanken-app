@@ -4812,3 +4812,18 @@ window.KANKEN_QUESTIONS.push(...[
 };
   window.KANKEN_QUESTIONS.forEach(q => { if (HYOGAI_ENTRY_MEANINGS[q.id]) q.meaning = HYOGAI_ENTRY_MEANINGS[q.id]; });
 })();
+
+(() => {
+  window.KANKEN_QUESTIONS.forEach(q => {
+    if (q.category !== "表外読み" || q.target) return;
+    const kanaSuffixMatch = q.word.match(/[ぁ-ゖ]+$/);
+    if (!kanaSuffixMatch) return;
+    const suffix = kanaSuffixMatch[0];
+    if (!q.reading.endsWith(suffix)) return;
+    const stem = q.reading.slice(0, -suffix.length);
+    if (!stem) return;
+    q.okurigana = q.okurigana || suffix;
+    q.hintLength = q.hintLength || Array.from(stem).length;
+    q.accepted = [...new Set([...(q.accepted || []), stem])];
+  });
+})();
