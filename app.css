@@ -17,7 +17,7 @@
 
 .jukugo-kun-card{background:#e8eef7}.jukugo-kun-card:after{content:"訓"}.kun-answer{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
 
-.jukugo-kun-pair{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;margin:40px 0 34px;text-align:center}.jukugo-kun-pair>div{min-width:0}.jukugo-kun-pair>div>span{display:block;color:var(--muted);font-size:14px;margin-bottom:12px}.jukugo-kun-pair strong{display:flex;justify-content:center;align-items:flex-end;min-height:86px;font-family:"Noto Serif JP",serif;color:var(--ink);font-size:clamp(32px,9vw,46px);font-weight:600;white-space:nowrap}.pair-arrow{font-size:25px;color:var(--muted);align-self:end;margin-bottom:28px}.dual-answer-grid{display:grid;gap:14px}.dual-answer-grid label>span{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.dual-answer-grid input{width:100%;border:1px solid var(--line);border-radius:10px;background:#fff;padding:12px 13px;font-size:18px;outline:none}.dual-answer-grid input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,131,59,.12)}.dual-submit{margin-top:14px}@media(max-width:390px){.jukugo-kun-pair{gap:8px}.jukugo-kun-pair strong{font-size:30px}.pair-arrow{font-size:20px}}
+.jukugo-kun-pair{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;margin:12px 0 24px;text-align:center}.jukugo-kun-pair>div{min-width:0}.jukugo-kun-pair>div>span{display:block;color:var(--muted);font-size:14px;margin-bottom:0}.jukugo-kun-pair strong{display:flex;justify-content:center;align-items:flex-end;height:74px;min-height:74px;font-family:"Noto Serif JP",serif;color:var(--ink);font-size:clamp(32px,9vw,46px);font-weight:600;white-space:nowrap}.pair-arrow{font-size:25px;color:var(--muted);align-self:end;margin-bottom:15px}.dual-answer-grid{display:grid;gap:14px}.dual-answer-grid label>span{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.dual-answer-grid input{width:100%;border:1px solid var(--line);border-radius:10px;background:#fff;padding:12px 13px;font-size:18px;outline:none}.dual-answer-grid input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,131,59,.12)}.dual-submit{margin-top:14px}@media(max-width:390px){.jukugo-kun-pair{gap:8px}.jukugo-kun-pair strong{font-size:30px}.pair-arrow{font-size:20px}}
 
 .split-feedback{display:grid;grid-template-columns:1fr 1fr;gap:10px}.split-feedback .feedback{margin-top:12px}.split-feedback small{display:block;margin-top:5px;font-weight:500}.separate-favorites{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}.separate-favorites button{padding-inline:8px}@media(max-width:390px){.split-feedback,.separate-favorites{grid-template-columns:1fr}}
 
@@ -49,3 +49,13 @@
 .relation-options .option-choice:disabled{opacity:.58}.relation-options .option-choice.selected:disabled{opacity:1}
 
 .relation-reading-head{display:flex!important;align-items:center;justify-content:space-between;gap:12px}.relation-reading-head b{font-weight:500}.relation-reading-head em{font-style:normal;font-size:12px;color:var(--muted);white-space:nowrap}
+
+.session-title{margin:0 0 22px;color:var(--gold);font-size:28px;line-height:1.2;letter-spacing:.13em;font-weight:700}
+
+.question-number{font-family:"Noto Serif JP",serif;color:var(--ink);font-size:24px;font-weight:700;text-align:left;margin:4px 0 0 10px}.reading-paper .question-word{margin:12px 0 20px}
+
+.jukugo-question-number{margin-left:0}
+
+.jukugo-kun-pair .reading-circles{height:18px;margin-bottom:-5px;position:relative;z-index:1}
+
+.phrase-question{display:inline-flex;align-items:flex-end;justify-content:center;gap:.03em;font-size:clamp(27px,8vw,42px);white-space:nowrap}.reading-target{color:var(--ink)}
