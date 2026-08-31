@@ -245,7 +245,7 @@ window.KANKEN_IDIOMS = [
     "id": "p005",
     "word": "浮花浪蕊",
     "reading": "ふかろうずい",
-    "meaning": "あてどなく遊び歩く人や、落ち着きのない生活のたとえ。",
+    "meaning": "特に優れたところがなく、どこにでもあるような平凡なもののたとえ。",
     "category": "四字熟語",
     "source": "study_note",
     "verified": false
